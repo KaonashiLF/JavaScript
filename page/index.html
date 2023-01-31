@@ -3,36 +3,37 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Lucas - JS Study</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='../hello.js'></script>
+    <link rel="stylesheet" type="text/css" href="../style/stylesheet.css">
 </head>
 <body>
+    <div id="js-interact">
+        <label id="list">
+            What do you want to see? <br><br>
+            1 - Hello World <br>
+            2 - Variable characteristics <br>
+            3 - Let characteristics <br>
+            4 - Const characteristics <br><br>
+        </label>
 
-    <label>
-        What do you want to see? <br><br>
-        1 - Hello World <br>
-        2 - Variable characteristics <br>
-        3 - Let characteristics <br>
-        4 - Const characteristics <br><br>
-    </label>
+        <button id="pressButton" onclick=studyIfElse()>
+            Press to see result
+        </button>
 
-    <button id="pressButton" onclick=studyIfElse()>
-        Press to see result
-    </button>
+        <br>
+        <br>
 
-    <br>
-    <br>
+        <button id="clearConsoleButton" onclick=clearConsole()>
+            Click here to clear console
+        </button>
 
-    <button id="clearConsoleButton" onclick=clearConsole()>
-        Click here to clear console
-    </button>
+        <hr>
 
-    <hr>
-
-    <label>Input one of number provided above</label>
-    <br>
-    <input id="userChoice">
-    
+        <label>Input one of number provided above</label>
+        <br>
+        <input id="userChoice">
+    </div>
 </body>
 </html>

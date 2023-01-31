@@ -1,0 +1,17 @@
+/** Comment **/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #DDD;
+}
+
+#js-interact{
+    display: block;
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 25%;
+}
+
